@@ -1,3 +1,4 @@
 requests
 llama-index
 ipython
+llama-index-llms-huggingface-api
