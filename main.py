@@ -6,7 +6,7 @@ from llama_index.core.base.embeddings.base import BaseEmbedding
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 HF_API_TOKEN = "hf_..." ### please your API here
 HF_API_TOKEN = input("Please your API: ")
-print("Your AOP is {}".format(HF_API_TOKEN))
+print("Your API is {}".format(HF_API_TOKEN))
 
 HEADERS = {
     "Authorization": f"Bearer {HF_API_TOKEN}"
